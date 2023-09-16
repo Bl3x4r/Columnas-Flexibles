@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.row{
+    height: 200px;
+    display: flex;
+    background-color: silver;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.col{
+    height: 50px;
+    background-color: lightseagreen;
+    flex: 1;
+}
+.col-2{
+    background-color: lightseagreen;
+    flex: 2;
+}
+.col-3{
+    background-color: lightseagreen;
+    flex: 3;
+}
